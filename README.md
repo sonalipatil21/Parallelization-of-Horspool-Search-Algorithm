@@ -3,7 +3,7 @@
 ## Proposal:
 Looking to parallelize the Boyer Moore Horspool algorithm for text search (stringmatching) over large volumes of text.
 
-## Boyer Moore Horspool algorithm:
+## Boyer Moore Horspool algorithm
 The Boyer Moore Horspool algorithm is an algorithm for finding substrings within strings throughcomparing each character within the substring to find the matching characters in the string andreturn the match. This algorithm is known to be the fastest way to search for substrings and isusually utilized in search bars, auto-corrects, and Big Data searches. The algorithm works toreduce the number of CPU cycles and search time necessary to find a given text. The execution time is linear as it looks at the size of the string being searched which makes it have a lower execution time factor in comparison to that of other search algorithms. The worst-case performance of the Horspool algorithm is also less than other search algorithms as it looks to have a runtime of O(mn) where m is the length of the text being searched for and n is the text being searched. 
 
 ## How It Works
