@@ -14,7 +14,7 @@ The Horspool algorithm works to compare an order of characters within a substrin
 The Bad Match table is created through calculating the value of each character within the substring with the formula 
 
 
-Value = length of substring – index of each letter in the substring – 1 
+     Value = length of substring – index of each letter in the substring – 1 
 
 
 The last character and charactersnot within the substring are given the value of the length of the substring. To compare the order of characters in a substring with those in a string, you start from the index of the last character in the substring. If the character matches with its string position character, then the preceding characters are compared as well. If it does not match, or any preceding characters do not match, the value corresponding to the last character is found through the Bad Match Table and the substring skips that many given number of spaces indicated. This is done until a total match is found and the substring is located within the string.
